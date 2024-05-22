@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApigeeToMulesoftMigrationUtil", "ApigeeToMulesoftMigrationUtil.csproj", "{BF4A35C2-4C90-46B5-8263-26BA4D939A55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF4A35C2-4C90-46B5-8263-26BA4D939A55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF4A35C2-4C90-46B5-8263-26BA4D939A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF4A35C2-4C90-46B5-8263-26BA4D939A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF4A35C2-4C90-46B5-8263-26BA4D939A55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD109217-ED58-4D56-B841-9735D87F4C92}
+	EndGlobalSection
+EndGlobal
