@@ -1,6 +1,6 @@
-﻿using ApigeeToMulesoftMigrationUtil.Poviders.Bundle;
+﻿using ApigeeToMulesoftMigrationUtil.Providers.Bundle;
 
-namespace ApigeeToMulesoftMigrationUtil.Poviders
+namespace ApigeeToMulesoftMigrationUtil.Providers
 {
     public interface IBundleProvider
     {

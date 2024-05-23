@@ -1,6 +1,6 @@
 ﻿using ApigeeToMulesoftMigrationUtil.Services;
 
-namespace ApigeeToMulesoftMigrationUtil.Poviders.Bundle
+namespace ApigeeToMulesoftMigrationUtil.Providers.Bundle
 {
     public class ApigeeOnlineApiProxyBundle : IBundle
     {

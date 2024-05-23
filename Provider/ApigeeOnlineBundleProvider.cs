@@ -1,7 +1,7 @@
-﻿using ApigeeToMulesoftMigrationUtil.Poviders.Bundle;
+﻿using ApigeeToMulesoftMigrationUtil.Providers.Bundle;
 using ApigeeToMulesoftMigrationUtil.Services;
 
-namespace ApigeeToMulesoftMigrationUtil.Poviders
+namespace ApigeeToMulesoftMigrationUtil.Providers
 {
     public class ApigeeOnlineBundleProvider : IBundleProvider
     {

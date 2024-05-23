@@ -1,4 +1,4 @@
-﻿namespace ApigeeToMulesoftMigrationUtil.Poviders.Bundle
+﻿namespace ApigeeToMulesoftMigrationUtil.Providers.Bundle
 {
     public class ApigeeFileApiProxyBundle : IBundle
     {

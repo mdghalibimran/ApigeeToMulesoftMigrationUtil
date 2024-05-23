@@ -1,5 +1,5 @@
 ﻿using ApigeeToMulesoftMigrationUtil.Models;
-using ApigeeToMulesoftMigrationUtil.Poviders;
+using ApigeeToMulesoftMigrationUtil.Providers;
 using ApigeeToMulesoftMigrationUtil.Services;
 
 namespace ApigeeToMulesoftMigrationUtil

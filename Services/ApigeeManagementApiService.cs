@@ -33,15 +33,6 @@ namespace ApigeeToMulesoftMigrationUtil.Services
         public string? Environment { get; private set; }
         public string ProxyName { get; private set; }
 
-        public async Task<ApiProductMetaData> GetApiProducts()
-        {
-            await ResetHttpClient();
-            HttpResponseMessage apiProxyResponse = await _client.GetAsync($"apiproducts");
-            apiProxyResponse.EnsureSuccessStatusCode();
-            var apiMetaData = JsonConvert.DeserializeObject<ApiProductMetaData>(await apiProxyResponse.Content.ReadAsStringAsync());
-            return apiMetaData;
-        }
-
         public async Task<ApigeeEntityModel> GetApiProxyByName(string proxyName)
         {
             await ResetHttpClient();
